@@ -13,40 +13,26 @@
   <div class="header">
     <h1>Poker Semi Automatic</h1>
   </div>
-  <div class="register-pemain">
-    <label>Tambah Pemain</label>
-    <input type="text" id="playerNameInput" />
-    <input type="submit" id="addPlayerButton" />
+  <div>
+    <div class="register-pemain">
+      <p>Tambah Pemain</p>
+      <input type="text" id="playerNameInput" />
+      <input type="submit" id="addPlayerButton" />
+    </div>
+    <div class="masukan-saldo">
+      <p>Masukan jumlah saldo awal tiap pemain</p>
+      <input type="text" id="initialScoreInput" />
+      <input type="submit" id="setInitialScoreButton" />
+    </div>
   </div>
-  <div class="masukan-saldo">
-    <label>Masukan jumlah saldo awal tiap pemain</label>
-    <input type="text" id="initialScoreInput" />
-    <input type="submit" id="setInitialScoreButton" />
-  </div>
+
   <div class="bet-container">
     <p>Tampungan Bet</p>
-    <p style="font-size: x-large; font-weight: bold; color: rgb(0, 111, 46); margin-top: -5px;" id="bet-temp">0</p>
+    <p style="font-size: xx-large; font-weight: bold; color: rgb(24, 155, 78); margin-top: -5px;" id="bet-temp">0</p>
   </div>
   <div class="player-container" id="playerContainer">
-    <!-- <div class="profile-card">
-      <button class="delete-player" style="border: none; background: none; padding: 0;">
-        <i class="material-icons" style="color: rgb(224, 224, 224);">delete</i>
-      </button>
-      <img src="profile-icon-9.png" alt="Profile Picture" class="profile-picture">
-      <div class="profile-details">
-        <h2 class="profile-name">John Doe</h2>
-        <div class="profile-score">
-          <span class="score-label">Saldo:</span>
-          <span class="score-value">0</span>
-        </div>
-      </div>
-      <div class="masukan-saldo">
-        <input type="text" class="bet-input" />
-        <input type="submit" value="BET" class="bet-button" />
-      </div>
-      <button class="win-round-button" style="padding: 4px;">WIN THIS ROUND</button>
-    </div> -->
-    <!-- Repeat the above profile-card div for each player as needed -->
+    <!-- Player cards will be dynamically added here -->
+
   </div>
 
   <script src="scripts.js"></script>
